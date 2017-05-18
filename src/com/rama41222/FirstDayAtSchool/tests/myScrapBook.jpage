@@ -1,3 +1,0 @@
-Pencil p = new Pencil("wewew");
-FirstDayAtSchool fs = new FirstDayAtSchool();
-fs.addPencils(p);fs.getMyPencils();

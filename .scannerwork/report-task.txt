@@ -1,0 +1,5 @@
+projectKey=java-sonarqube-sample-project
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/java-sonarqube-sample-project
+ceTaskId=AVwdKsB4YIvg3FUxYWu8
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVwdKsB4YIvg3FUxYWu8
