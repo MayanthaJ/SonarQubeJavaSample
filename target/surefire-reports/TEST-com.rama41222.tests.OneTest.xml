@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.rama41222.tests.OneTest" time="0.063" errors="0" skipped="0">
+<testsuite tests="8" failures="3" name="com.rama41222.tests.OneTest" time="0.125" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
@@ -66,7 +66,36 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="com.rama41222.tests.OneTest" name="testNotEqual" time="0.032"/>
-  <testcase classname="com.rama41222.tests.OneTest" name="testFoo" time="0"/>
-  <testcase classname="com.rama41222.tests.OneTest" name="testEqual" time="0.016"/>
-  <testcase classname="com.rama41222.tests.OneTest" name="testBoth" time="0.015"/>
+  <testcase classname="com.rama41222.tests.OneTest" name="testFoo" time="0.015"/>
+  <testcase classname="com.rama41222.tests.OneTest" name="testNPM" time="0.032">
+    <failure message="expected:&lt;1&gt; but was:&lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;true&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.rama41222.tests.OneTest.testNPM(OneTest.java:50)
+</failure>
+  </testcase>
+  <testcase classname="com.rama41222.tests.OneTest" name="testEqual" time="0.015"/>
+  <testcase classname="com.rama41222.tests.OneTest" name="testBoth" time="0.016"/>
+  <testcase classname="com.rama41222.tests.OneTest" name="testNPMN" time="0.015">
+    <failure message="expected:&lt;0&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;false&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.rama41222.tests.OneTest.testNPMN(OneTest.java:56)
+</failure>
+  </testcase>
+  <testcase classname="com.rama41222.tests.OneTest" name="testF1" time="0">
+    <failure message="expected:&lt;0&gt; but was:&lt;3&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;3&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at com.rama41222.tests.OneTest.testF1(OneTest.java:45)
+</failure>
+  </testcase>
+  <testcase classname="com.rama41222.tests.OneTest" name="testF" time="0"/>
 </testsuite>

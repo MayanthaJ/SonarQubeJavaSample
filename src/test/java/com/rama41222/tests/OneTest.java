@@ -1,5 +1,4 @@
 package com.rama41222.tests;
-import com.rama41222.example.*;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
@@ -34,5 +33,26 @@ public void setup(){
   @Test
   public void testNotEqual() throws Exception {
     assertEquals(false, one.messageEqual("hi","bye"));
+  }
+  
+  @Test
+  public void testF() throws Exception{
+	  assertEquals(1, one.f(1));
+  }
+ 
+  @Test
+  public void testF1() throws Exception{
+	  assertEquals(0, one.f(4));
+  }
+  
+  @Test
+  public void testNPM(){
+	  assertEquals(1, one. nullPointMethod("hi kala"));
+  }
+  
+
+  @Test
+  public void testNPMN() throws Exception{
+	  assertEquals(0, one. nullPointMethod(""));
   }
 }

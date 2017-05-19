@@ -1,4 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: com.rama41222.tests.OneTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 sec
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.24 sec <<< FAILURE!
+testNPM(com.rama41222.tests.OneTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<true>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.rama41222.tests.OneTest.testNPM(OneTest.java:50)
+
+testNPMN(com.rama41222.tests.OneTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.rama41222.tests.OneTest.testNPMN(OneTest.java:56)
+
+testF1(com.rama41222.tests.OneTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at com.rama41222.tests.OneTest.testF1(OneTest.java:45)
+
