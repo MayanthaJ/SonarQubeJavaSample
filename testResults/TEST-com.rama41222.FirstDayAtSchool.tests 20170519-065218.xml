@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="com.rama41222.FirstDayAtSchool.tests" project="Junit" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.rama41222.FirstDayAtSchool.tests.addPencilsTest" time="0.0">
-    <testcase name="testAddPencils" classname="com.rama41222.FirstDayAtSchool.tests.addPencilsTest" time="0.0"/>
-  </testsuite>
-  <testsuite name="com.rama41222.FirstDayAtSchool.tests.PrepareMyTestBag" time="0.0">
-    <testcase name="testIsF" classname="com.rama41222.FirstDayAtSchool.tests.PrepareMyTestBag" time="0.0"/>
-    <testcase name="testPrepareMyBag" classname="com.rama41222.FirstDayAtSchool.tests.PrepareMyTestBag" time="0.0"/>
-  </testsuite>
-</testrun>

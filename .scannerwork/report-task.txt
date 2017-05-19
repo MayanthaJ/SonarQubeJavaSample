@@ -1,5 +1,0 @@
-projectKey=java-sonar-Sample-Proj
-serverUrl=http://localhost:9000
-dashboardUrl=http://localhost:9000/dashboard/index/java-sonar-Sample-Proj
-ceTaskId=AVwfaQXf5SwLWML7A8Bk
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AVwfaQXf5SwLWML7A8Bk
